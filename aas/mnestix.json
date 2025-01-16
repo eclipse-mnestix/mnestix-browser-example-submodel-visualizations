@@ -1,0 +1,107 @@
+{
+  "modelType": "AssetAdministrationShell",
+  "assetInformation": {
+    "assetKind": "Type",
+    "defaultThumbnail": {
+      "contentType": "application/octet-stream",
+      "path": "MnestixLogo.png"
+    },
+    "globalAssetId": "https://vws.xitaso.com/mnestix"
+  },
+  "submodels": [
+    {
+      "keys": [
+        {
+          "type": "Submodel",
+          "value": "https://vws.xitaso.com/sm/nameplate/5240_8927_2203_5742"
+        }
+      ],
+      "type": "ModelReference"
+    },
+    {
+      "keys": [
+        {
+          "type": "Submodel",
+          "value": "https://vws.xitaso.com/sm/swnameplate/4386_8596_1428_5257"
+        }
+      ],
+      "type": "ModelReference"
+    },
+    {
+      "keys": [
+        {
+          "type": "Submodel",
+          "value": "https://vws.xitaso.com/sm/booth_bill_of_material"
+        }
+      ],
+      "type": "ModelReference"
+    },
+    {
+      "keys": [
+        {
+          "type": "Submodel",
+          "value": "https://example.com/ids/sm/7791_1307_3131_5873"
+        }
+      ],
+      "type": "ModelReference"
+    },
+    {
+      "keys": [
+        {
+          "type": "Submodel",
+          "value": "https://vws.xitaso.com/sm/nameplate/5240_8927_2203_5742"
+        }
+      ],
+      "type": "ModelReference"
+    },
+    {
+      "keys": [
+        {
+          "type": "Submodel",
+          "value": "https://vws.xitaso.com/sm/swnameplate/4386_8596_1428_5257"
+        }
+      ],
+      "type": "ModelReference"
+    },
+    {
+      "keys": [
+        {
+          "type": "Submodel",
+          "value": "https://vws.xitaso.com/sm/booth_bill_of_material"
+        }
+      ],
+      "type": "ModelReference"
+    },
+    {
+      "keys": [
+        {
+          "type": "Submodel",
+          "value": "https://example.com/ids/sm/7791_1307_3131_5873"
+        }
+      ],
+      "type": "ModelReference"
+    }
+  ],
+  "administration": {
+    "revision": "0",
+    "version": "1"
+  },
+  "id": "https://vws.xitaso.com/aas/mnestix",
+  "description": [
+    {
+      "language": "de",
+      "text": "Mnestix Browser ist eine Open-Source-Software, die die Implementierung der Asset Administration Shell vereinfachen soll. Zusammen mit zunehmenden Beiträgen von Benutzern und Entwicklern arbeitet eine wachsende Community unter der Leitung von XITASO, einem führenden High-End-Softwareentwicklungsunternehmen in der Ingenieurbranche, an der Weiterentwicklung. Mnestix Browser ist das perfekte Werkzeug, um die Leistungsfähigkeit und das Potenzial von AAS (Asset Administration Shells) für die Implementierung standardisierter digitaler Zwillinge zu demonstrieren. Es öffnet den Weg für Anwendungsfälle wie den Digital Product Passport (DPP)."
+    },
+    {
+      "language": "en",
+      "text": "Mnestix Browser is an open source software designed to simplify the implementation of the Asset Administration Shell. Together with increasing contributions from users and developers, a growing community is working on further development under the leadership of XITASO, a leading high-end software development company in the engineering industry. Mnestix Browser is the perfect tool to demonstrate the power and potential of AAS (Asset Administration Shells) for the implementation of standardized digital twins. It opens the way for use cases such as the Digital Product Passport (DPP)."
+    }
+  ],
+  "displayName": [
+    {
+      "language": "de",
+      "text": "Mnestix"
+    }
+  ],
+  "idShort": "Mnestix"
+}

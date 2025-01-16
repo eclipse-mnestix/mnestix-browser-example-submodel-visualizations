@@ -1,7 +1,7 @@
 {
   "user-plugins": {
     "submodels": {
-      "coffeeConsumption": {
+      "SoftwareNameplate": {
         "initialHeadingText": "Um hier deinen persönlichen Kaffeekonsum zu sehen, buche deinen ersten Kaffee in unserer ",
         "initialHeadingLink": "WebApp",
         "title": "Dein persönlicher Kaffeekonsum",

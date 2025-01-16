@@ -2,11 +2,9 @@
   "user-plugins": {
     "submodels": {
       "SoftwareNameplate": {
-        "initialHeadingText": "To see your personal coffee consumption here, book your first coffee in our ",
-        "initialHeadingLink": "WebApp",
-        "title": "Your personal coffee consumption",
-        "drunken": "Cups",
-        "coffeeKind": "Coffee type"
+        "welcome": "Welcome to Mnestix by",
+        "slogan": "Asset Administration Shell made easy!",
+        "versionInfo": "This is Mnestix version {version}. It was released on {releaseDate}."
       }
     }
   }

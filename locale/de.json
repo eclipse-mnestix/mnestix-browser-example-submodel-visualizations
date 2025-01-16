@@ -2,11 +2,9 @@
   "user-plugins": {
     "submodels": {
       "SoftwareNameplate": {
-        "initialHeadingText": "Um hier deinen persönlichen Kaffeekonsum zu sehen, buche deinen ersten Kaffee in unserer ",
-        "initialHeadingLink": "WebApp",
-        "title": "Dein persönlicher Kaffeekonsum",
-        "drunken": "Anzahl getrunken",
-        "coffeeKind": "Kaffeesorte"
+        "welcome": "Willkommen bei Mnestix von",
+        "slogan": "Verwaltungsschale leicht gemacht!",
+        "versionInfo": "Dies ist Mnestix in der Version {version}. Sie wurde am {releaseDate} veröffentlicht."
       }
     }
   }

@@ -2,14 +2,10 @@ import { SubmodelVisualizationProps } from 'app/[locale]/viewer/_components/subm
 import { useLocale, useTranslations } from 'next-intl';
 import { findValueByIdShort } from 'lib/util/SubmodelResolverUtil';
 import Link from 'next/link';
-import { Fragment } from 'react';
 
 export function SoftwareNameplateVisualizations({ submodel }: SubmodelVisualizationProps) {
     const t = useTranslations('user-plugins.submodels.SoftwareNameplate');
     const locale = useLocale();
-    // const valueByIdShort = submodelValueMapper(submodel, locale);
-    //
-    // const link = valueByIdShort('URIOfTheProduct');
 
     const link = findValueByIdShort(submodel.submodelElements, 'URIOfTheProduct', locale) ?? '';
     const manufacturer = findValueByIdShort(submodel.submodelElements, 'ManufacturerName', locale) ?? '';
@@ -24,7 +20,7 @@ export function SoftwareNameplateVisualizations({ submodel }: SubmodelVisualizat
             </h1>
             <h3>{t('slogan')}</h3>
             <p>{description}</p>
-            <img src="https://www.hubspot.com/hs-fs/hubfs/linkedin-summary-examples-4.jpg?width=595&height=400&name=linkedin-summary-examples-4.jpg" />
+            <img src="https://xitaso.com/wp-content/uploads/mnestix_screens24.webp" />
             <h6>{t('versionInfo', { version: version, releaseDate: releaseDate })}</h6>
         </>
     );

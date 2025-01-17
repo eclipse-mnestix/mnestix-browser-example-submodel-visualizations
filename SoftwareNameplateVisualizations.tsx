@@ -2,6 +2,7 @@ import { SubmodelVisualizationProps } from 'app/[locale]/viewer/_components/subm
 import { useLocale, useTranslations } from 'next-intl';
 import { findValueByIdShort } from 'lib/util/SubmodelResolverUtil';
 import Link from 'next/link';
+import { Typography } from '@mui/material';
 
 export function SoftwareNameplateVisualizations({ submodel }: SubmodelVisualizationProps) {
     const t = useTranslations('user-plugins.submodels.SoftwareNameplate');
@@ -15,13 +16,13 @@ export function SoftwareNameplateVisualizations({ submodel }: SubmodelVisualizat
 
     return (
         <>
-            <h1>
+            <Typography variant="h1" color="primary">
                 {t('welcome')} <Link href={link}>{manufacturer}</Link>
-            </h1>
-            <h3>{t('slogan')}</h3>
-            <p>{description}</p>
-            <img src="https://xitaso.com/wp-content/uploads/mnestix_screens24.webp" />
-            <h6>{t('versionInfo', { version: version, releaseDate: releaseDate })}</h6>
+            </Typography>
+            <Typography variant="h3">{t('slogan')}</Typography>
+            <Typography sx={{ my: 2 }}>{description}</Typography>
+            <img src="https://xitaso.com/wp-content/uploads/mnestix_screens24.webp" width="600px" />
+            <Typography variant="h6">{t('versionInfo', { version: version, releaseDate: releaseDate })}</Typography>
         </>
     );
 }

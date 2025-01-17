@@ -1,0 +1,11 @@
+{
+  "user-plugins": {
+    "submodels": {
+      "SoftwareNameplate": {
+        "welcome": "Welcome to Mnestix by",
+        "slogan": "Asset Administration Shell made easy!",
+        "versionInfo": "This is Mnestix version {version}. It was released on {releaseDate}."
+      }
+    }
+  }
+}

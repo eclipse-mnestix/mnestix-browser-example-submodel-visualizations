@@ -1,0 +1,11 @@
+{
+  "user-plugins": {
+    "submodels": {
+      "SoftwareNameplate": {
+        "welcome": "Willkommen bei Mnestix von",
+        "slogan": "Verwaltungsschale leicht gemacht!",
+        "versionInfo": "Dies ist Mnestix in der Version {version}. Sie wurde am {releaseDate} veröffentlicht."
+      }
+    }
+  }
+}

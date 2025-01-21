@@ -21,7 +21,11 @@ export function SoftwareNameplateVisualizations({ submodel }: SubmodelVisualizat
             </Typography>
             <Typography variant="h3">{t('slogan')}</Typography>
             <Typography sx={{ my: 2 }}>{description}</Typography>
-            <img src="https://xitaso.com/wp-content/uploads/mnestix_screens24.webp" width="600px" />
+            <img
+                src="https://xitaso.com/wp-content/uploads/mnestix_screens24.webp"
+                width="600px"
+                style={{ margin: '10px' }}
+            />
             <Typography variant="h6">{t('versionInfo', { version: version, releaseDate: releaseDate })}</Typography>
         </>
     );
